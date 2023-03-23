@@ -1,0 +1,39 @@
+1.Algoritmo
+	1.Mostre "Digite o primeiro N°"
+	2.double num1 = informar pelo usuário
+	3.Mostre "Digite qual operação deseja 1-Adição 2-Subtração 3-Multiplicação 4-DIvisão"
+	4.Int op = informar pelo usuário
+	5.Mostre "Digite o segundo N°"
+	6.double num2 = informar pelo usuário
+	7.se op = 1
+		mostre "num1+num2"
+	8.Senão se op = 2
+		mostre "num1-num2"
+	9.Senão se op = 3
+		mostre "num1*num2"
+	10.Senão 
+		mostre "num1/num2
+		
+2.Algoritmo
+	1.mostre "digite seu número de matrícula"
+	2.int numMat = informar pelo usuário
+	3.se numMat%4 = 0
+		mostre "Você está no time do Chris"
+	4.Senão se numMat%3 = 0
+		mostre "Você está no time do Greg"
+	4.Senão se numMat%2 = 0
+		mostre "Você está no time do Caruso"
+	4.Senão 
+		mostre "Você está no time do Jerome"
+		
+3.Algoritmo
+	1.mostre "digite quantos quilos de morango você comprou ex:1,80kg"
+	2.double morango = informar pelo usuário
+	3.mostre "digite quantos quilos de maça você comprou ex:1,80kg"
+	4.double maca = informar pelo usuário
+	5.mostre "digite quantos quilos de banana você comprou ex:1,80kg"
+	6.double banana = informar pelo usuário
+	7.se morango+maca+banana>8 OU morango*2,5+maca*1,8+banana*1,3>25
+		mostre "morango*2,5+maca*1,8+banana*1,3-(10*(morango*2,5+maca*1,8+banana*1,3)/100)"
+	8.Senão
+		mostre "morango*2,5+maca*1,8+banana*1,3"
